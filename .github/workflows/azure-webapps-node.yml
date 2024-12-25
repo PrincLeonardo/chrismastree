@@ -1,6 +1,6 @@
 renderer.setSize(sizes.width, sizes.height);
 renderer.setClearColor("#00ff00", 1);
-renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)));
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 renderer.physicallyCorrectligths = true;
 renderer.outputEncoding = THREE.sRGBEncoding;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
